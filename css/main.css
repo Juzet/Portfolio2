@@ -1,0 +1,91 @@
+#page1{
+	width: 1360px;
+	height: 670px;
+	color: purple;
+	padding-top: 20%;
+	background-image: url("../images/wat.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Libre Baskerville', serif;
+
+}
+#page2{
+	width: 1360px;
+	height: 670px;
+	padding-top: 20%;
+	background-image: url("../images/abot.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Libre Baskerville', serif;
+}
+#page3{
+	width: 1360px;
+	height: 670px;
+	color: orange;
+	padding-top: 5%;
+	background-image: url("../images/musicc.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Libre Baskerville', serif;
+}
+#carousel-example-generic{
+	width:385px;
+	margin:3% 36%;
+}
+#page4{
+	width: 1360px;
+	height: 670px;
+	color: orange;
+	padding-top: 10%;
+	background-image: url("../images/quest.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#page5{
+	width: 1360px;
+	height: 670px;
+	color: orange;
+	padding-top: 10%;
+	background-image: url("../images/quest.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Libre Baskerville', serif;
+}
+#one{
+	height: 300px;
+	width: 500px;
+	color: white;
+	padding-left: 10%;
+	padding-bottom: 50%;
+}
+@media screen and (max-width:320px){
+	#page1{
+		width:100%;
+	}
+	#page2{
+	width:100%;
+	}
+	#page3{
+	width:100%;
+	}
+	#carousel-example-generic{
+	width: 100%;
+	}
+
+}
+@media screen and (max-width:320px){
+	#page1{
+	width:320px;
+	}
+	#page2{
+	width:320px;
+	}
+	#page3{
+	width:320px;
+	}
+	#carousel-example-generic{
+	width: 320px;
+	}
+}
