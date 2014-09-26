@@ -16,16 +16,17 @@ h1{
 	background-image: url("../images/wat.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-attachment: fixed;
 	font-family: 'Libre Baskerville', serif;
 
 }
 #page2{
 	width: 100%;
 	height: 100%;
-	/*padding-top: 20%;*/
 	background-image: url("../images/abot.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-attachment: fixed;
 	font-family: 'Libre Baskerville', serif;
 }
 #page3{
@@ -35,37 +36,30 @@ h1{
 	background-image: url("../images/musicc.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-attachment: fixed;
 	font-family: 'Libre Baskerville', serif;
 }
 #carousel-example-generic{
 	width:385px;
 	margin:3% 36%;
-}
-/*#page4{
-	width: 1360px;
-	height: 670px;
-	color: orange;
-	padding-top: 10%;
-	background-image: url("../images/quest.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	font-family: 'Libre Baskerville', serif;
-}
 
-#page5{
-	width: 1360px;
-	height: 670px;
+}
+#two{
+	padding-left: 50%;
+	padding-top: 5%;
+	font-size: 50px;
 	color: orange;
-	padding-top: 10%;
-	background-image: url("../images/quest.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	font-family: 'Libre Baskerville', serif;
-}*/
+}
 #one{
-	height: 300px;
-	width: 500px;
-	color: gray;
+	padding-left: 50%;
+	padding-top: 5%;
+	color: orange;
+	font-size: 20px;
+}
+#zero{
+	padding-top: 5%;
+	font-size: 25px;
+	color: orange;
 }
 @media screen and (max-width:320px){
 	#page1{
@@ -83,6 +77,11 @@ h1{
 	}
 	#one{
 	width: 100%;
+	font-size: 8px;
+	}
+	h1{
+	width: 100%;
+	font-size: 10px;
 	}
 
 }
